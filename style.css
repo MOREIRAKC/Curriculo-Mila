@@ -1,0 +1,48 @@
+*{
+    font-family: "inter";
+}
+
+#menusuperior{
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    text-transform: uppercase;
+    }
+    h1, h2, h3{
+        text-transform: uppercase;
+    }
+    #nomeEtitulo{
+        background-color: white;
+        width: 500px;
+        margin: 0px auto ;
+        text-align: center;
+    }
+    #nomeEtitulo h1,h2{
+        margin: 0;
+    }
+    #contato{
+        list-style-type: none;
+    }
+    #contato i {
+        width: 30px;
+        color: antiquewhite;
+    }
+    #menuinferior{
+        grid-template-columns: 30% auto;
+        display: grid;
+        grid-column-gap: 20px;
+    }
+    #ladoesquerdo , #ladodireito{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .card h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .card{
+        border: 1px solid #e6e6de;
+        border-radius: 15px;
+        padding: 20px;
+    }
